@@ -11,8 +11,8 @@ Table of content
 8. testimonial
 9. blog
 10. brand logo area
-11. shop grid view
-12. shop list view
+11. SHOP grid view
+12. SHOP list view
 13. product details
 14. checkout
 15. cart
@@ -3454,7 +3454,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 /*------- categories sidebar end -------*/
-/*-------- shop sidebar start --------*/
+/*-------- SHOP sidebar start --------*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .sidebar-widget .img-container {
         max-width: 270px;
@@ -3494,7 +3494,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     float: right;
 }
 
-/*-------- shop sidebar end --------*/
+/*-------- SHOP sidebar end --------*/
 /*--------- pricing filter slider start ---------*/
 .price-range-wrap {
     padding-top: 8px;
@@ -4171,8 +4171,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 /*------- brand area end -------*/
-/*----- shop main wrapper start -----*/
-.shop-top-bar {
+/*----- SHOP main wrapper start -----*/
+.SHOP-top-bar {
     padding-bottom: 34px;
     margin-bottom: 30px;
     border-bottom: 1px solid #e5e5e5;
@@ -4288,12 +4288,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     min-height: 34px;
 }
 
-/*----- shop main wrapper end -----*/
-.shop-product-wrap.list .product-item {
+/*----- SHOP main wrapper end -----*/
+.SHOP-product-wrap.list .product-item {
     display: none;
 }
 
-.shop-product-wrap.grid .product-item {
+.SHOP-product-wrap.grid .product-item {
     display: block;
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
@@ -4301,11 +4301,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     animation-duration: 1s;
 }
 
-.shop-product-wrap.grid .product-list-item {
+.SHOP-product-wrap.grid .product-list-item {
     display: none !important;
 }
 
-.shop-product-wrap.list .product-list-item {
+.SHOP-product-wrap.list .product-list-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4315,8 +4315,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     animation-duration: 0.8s;
 }
 
-.shop-product-wrap.row.list .col-lg-4,
-.shop-product-wrap.row.list .col-lg-3 {
+.SHOP-product-wrap.row.list .col-lg-4,
+.SHOP-product-wrap.row.list .col-lg-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;

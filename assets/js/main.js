@@ -545,11 +545,11 @@
 	// product view mode change js
 	$('.product-view-mode').on('click', 'a', function (e) {
 		e.preventDefault();
-		var shopProductWrap = $('.shop-product-wrap');
+		var SHOPProductWrap = $('.SHOP-product-wrap');
 		var viewMode = $(this).data('target');
 		$('.product-view-mode a').removeClass('active');
 		$(this).addClass('active');
-		shopProductWrap.removeClass('grid list').addClass(viewMode);
+		SHOPProductWrap.removeClass('grid list').addClass(viewMode);
 	});
 
 	// Checkout Page accordion
